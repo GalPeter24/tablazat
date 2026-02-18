@@ -20,12 +20,13 @@ function letrehoz(){
         }
         table.appendChild(sor);
     };
-    container.appendChild(table)
-    container.appendChild(document.createElement("hr"));
+    if (container.hasChildNodes()){
+           container.replaceChild(table,container.firstChild);
+
+    }
+    else {container.appendChild(table)};
+
 
     if( document.getElementById("osszezar").checked){table.style.borderCollapse="collapse"}
     
-    
-
-
 }
