@@ -1,0 +1,46 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:skyblue;
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 45px 10px 45px 10px;
+    background-color:bisque;
+    box-shadow: 5px 5px hsla(202, 98%, 52%, 0.6);
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+#h{
+margin-top: 50px;
+}
+table{
+    border: 2px dashed blue;
+}
+td{
+    font-weight: bold;
+}
+tr{background-color:aquamarine}
+hr{
+    border-top: 10px solid blue;
+}
+
+button{
+    border-radius:20px ;
+    background-color:azure;
+    color: blue;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: blue;
+    color: azure;
+}
+#oszlopok, #sorok {
+    background-color: azure;
+}
+input[type="range"] {
+    accent-color:blue;
+    background-color: azure;
+}
